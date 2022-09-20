@@ -47,7 +47,7 @@ nav{
 /* sections header */
 /* h1-paragraph-button */
 
- h1,.header-paragraph {
+ h1,.header-text {
     padding: 20px;
 }
 h1{
@@ -64,8 +64,8 @@ h1{
    
  }
  
-.header-paragraph{
-    padding-bottom: 60px;
+.header-text{
+    padding-bottom: 50px;
 }
 
  .header-button1{
@@ -86,47 +86,55 @@ h1{
     
  }
  
- /* main-container */
  /* section1-main */
  
- .main-container{
+
+.sec1{
+    
     display: flex;
     width: 80%;
     margin: 0 auto;
-    
-    height: 400px;
-    background-color: lightgreen;
+    text-align: left;
     justify-content: space-between;
     
- }
- 
- 
- .main-img,.main-text{
-    
-    width: 400px;
-    height: 400px;
-    background-color: blue;
- }
-
- .main-img {
-  flex-basis: 58%;
-  
- }
- .main-text{
-    flex-basis: 40%;
-    
- }
-
- /* section-2-main */
- 
- .order-1{
-    order: 1;
-
- }
- .order-2{
-    order: 2;
     
 }
+
+.img-sec1{
+display: flex;
+flex-basis: 65%;
+justify-content: flex-end;
+}
+
+.img-sec1 img {
+    
+   
+    width: 550px;
+    height: 450px;
+    margin-right: 45px;
+   
+    }
+
+.text-sec1{
+    flex-basis: 35%;
+    
+}
+
+.text-sec1 h2{
+    font-size: 2.5rem;
+    padding-top: 80px;
+}
+
+.text-sec1 div{
+
+    padding-top: 40px;
+    
+}
+/* section2-main */
+
+/* section3-main */
+ 
+
 
 /*section-main4 */
 
