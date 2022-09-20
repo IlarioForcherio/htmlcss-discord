@@ -126,7 +126,7 @@ justify-content: flex-end;
 }
 
 .text-sec1 div{
-
+    font-size: 1.2rem;
     padding-top: 40px;
     
 }
@@ -134,7 +134,7 @@ justify-content: flex-end;
 
 .sec2{
 
-    background-color: lightgray;
+    background-color: rgb(249, 242, 242);
 }
 
 .img-sec2{
@@ -166,7 +166,7 @@ justify-content: flex-end;
     .text-sec2 div{
     
     padding-top: 40px;
-        
+    font-size: 1.2rem;  
     }    
 
     
@@ -178,7 +178,7 @@ justify-content: flex-end;
 
 /*section-main4 */
 
- .main4{
+ .sec4{
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -188,9 +188,11 @@ justify-content: flex-end;
     padding-top: 30px;
     
  }
- .main4-text,.main4-img2,.main4-button{
+ .sec4-text,.sec4-img2,.sec4-button{
     padding: 30px;
  }
+
+
 
  
 
