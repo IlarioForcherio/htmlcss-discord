@@ -138,7 +138,7 @@ justify-content: flex-end;
 
 .sec2{
 
-    background-color: rgb(249, 242, 242);
+    background-color:rgb(220, 220, 220);
 }
 
 .img-sec2{
@@ -184,31 +184,59 @@ justify-content: flex-end;
 
  .sec4{
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    
+    background-color: rgb(220, 220, 220);
     flex-direction: column;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 200px;
+    padding-bottom:100px;
+    
     
  }
 
- .sec4-text,.sec4-img2,.sec4-button{
-    padding: 30px;
-    
- }
- 
  .sec4-text{
-    background-image: url(../img/stars.svg);
-    background-size:contain;
+    width: 80%;
+    margin: 0 auto;
+ }
+
+ .sec4-text h2 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    
+
+    
+ }
+
+.sec4-text div {
+    
+    padding-bottom: 50px;
+
+}
+    
+ 
+ .sec4-img img {
+    padding-bottom: 70px;
+    
 
  }
+ .stars {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    margin-bottom: 50px;
+    
+    
+   
+
+}   
+
+
  .sec4-button{
-    display: inline;
-    padding: 15px;
-    margin: 20px;
+    
+    
+    
     border-radius: 30px;
-    background-color: blue;
+    background-color:rgb(100, 100, 247);
     color:white;
 
  }
@@ -228,6 +256,7 @@ footer{
     width: 80%;
     margin: 0 auto;
     text-align: left;
+    border-bottom: 1px solid rgb(117, 142, 231);
     
     
 }
@@ -276,6 +305,8 @@ ul{
 
 
 
+
+
 /* banner-footer */
 
 
@@ -288,6 +319,27 @@ ul{
     padding: 8px;
     font-size: 0.8rem;
 
+}
+
+
+.social{
+    padding-top:15px
+}
+.social img { 
+    width: 20px;
+    height: 13px;
+    vertical-align: middle;
+    
+}
+.social div{
+    display: inline;
+    color: white;
+    font-size: 0.75rem;
+    
+}
+.social div::after{
+
+    content:'\2228' ;
 }
 
 
