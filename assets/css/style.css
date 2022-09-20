@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header e nav */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    
+    
+}
+nav{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: white;
+    line-height: 50px;
+    
+}
+
+
+
+ 
+ .nav-logo img{
+    width: 100px;
+    height: 50px;
+    
+
+ }
+ .nav-button div{
+    
+    color: black;
+    display: inline;
+    background-color:white;
+    border-radius: 20px;
+    padding: 8px;
+ }
+    
+    
+ 
+
+
+/* sections header */
+/* h1-paragraph-button */
+
+ h1,.header-paragraph {
+    padding: 20px;
+}
+ 
+.header-container{
+    text-align: center;
+    width: 60%;
+    height: 320px;
+    margin: auto;
+    color: white;
+
+    
+
+ }
+
+ .button {
+    border: 3px solid black;
+    display: inline;
+    background-color: pink;
+    border-radius: 10px;
+    margin: 20px;
+ }
+ 
+ /* main-container */
+ /* section1-main */
+ 
+ .main-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+    height: 400px;
+    background-color: lightgreen;
+    justify-content: space-between;
+    
+ }
+ 
+ 
+ .main-img,.main-text{
+    
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+ }
+
+ .main-img {
+  flex-basis: 58%;
+  
+ }
+ .main-text{
+    flex-basis: 40%;
+    
+ }
+
+ /* section-2-main */
+ 
+ .order-1{
+    order: 1;
+
+ }
+ .order-2{
+    order: 2;
+    
+}
+
+/*section-main4 */
+
+ .main4{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(196, 65, 65);
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    
+ }
+ .main4-text,.main4-img2,.main4-button{
+    padding: 30px;
+ }
+
+ 
+
+/* footer */
+/* column-container */
+footer{
+    background-color: black;
+}
+.column-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+.col1{
+    flex-basis: 30%;
+    width: 100px;
+    height: 400px;
+    background-color: blue;
+    text-align: center;
+
+}
+.col2{
+    display: flex;
+    flex-basis: 70%;
+    background-color: aqua;
+    height: 400px;
+    
+}
+.col{
+    width: calc(100% / 4);
+    background-color: rgb(159, 203, 55);
+    height: 400px;
+    
+
+}
+
+
+
+
+
+/* banner-footer */
+
+.banner-container{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: rgb(55, 196, 196);
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
